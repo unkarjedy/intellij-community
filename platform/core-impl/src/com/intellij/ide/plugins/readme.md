@@ -2,7 +2,7 @@
 Currently, plugin it is entity that consists of one or more [IJ IDEA modules](https://www.jetbrains.com/help/idea/creating-and-managing-modules.html).
 Currently, IJ IDEA module is not reflected in any way in a plugin — only as part of build script, where plugin layout is described.
 It is going to be changed — IJ Module will be integral part of plugin subsystem.
-Plugin descriptor will reference all modules that forms its content, and plugin descriptor itself it is a specific form of module descriptor.
+Plugin descriptor will reference all modules that forms its content, and plugin descriptor itself is a specific form of module descriptor.
 
 Every plugin it is a module, but not every module it is a plugin.
 Term "optional descriptor" in a new format is equivalent to module dependency of plugin. 
